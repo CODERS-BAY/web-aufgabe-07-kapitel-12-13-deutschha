@@ -1,0 +1,114 @@
+@font-face{ font-family: "googlestyle1";
+            src: url(<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap" rel="stylesheet"> )}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Henny+Penny&display=swap');
+
+body{background-color: #C29B6C;}
+body{font-family: googlestyle1;font-size: 18px;}
+body{width: calc(100% -50px)}
+
+
+#headering{width: 100%;
+            height: 60vh;
+            background-image: url(../image/Schafwolle.jpg);
+            background-size: cover;
+            opacity: 0.7;
+            border-style: solid;
+            border-width: 5%;
+            box-shadow:  burlywood;
+            padding: - 20%}
+
+
+
+h1{font-family: 'Barlow', sans-serif;}
+h1{background-image: url(../image/Schafwolle.jpg);}
+h1{font-size: 40px;}
+h1:first-letter{font-size: 200%;}
+h1{color: rgb(88, 51, 1);}
+h1{float: left;width: calc(100% - 50px)}
+h1{text-align: center;}
+h1{text-shadow: 2px 1px 1px brown;}
+
+
+h2::before{content: url("../image/lion2.png");}
+h2:first-letter{color: green;}
+h2{background-position: center;}
+h2{border: lightgoldenrodyellow, 2px ;}
+h2{text-shadow:2px 2px 1px gold;}
+
+
+
+
+.topA{margin-bottom: 20%;}
+
+p:first-letter{font-size: 200%;}
+
+.pin{margin-top: 2%;
+     max-width: 30px;}
+
+#hh{margin-left: 30%;
+    margin-top: -10%;}
+
+img{border-radius: 50%;
+    border-style: outset;
+    box-shadow: saddlebrown;
+    max-width: 20%;
+    margin-left: 10%;
+    transition: transform 4s;}
+
+ img:hover{transform: rotate(270deg);}
+
+
+.gal{display:inline-block;
+    padding: 5%;
+    margin-top: -5%;} 
+
+.subgal{margin-left: 25%;}
+
+.diese{max-height: 50px;}
+
+h3::after{content: url("../image/sloth.png");}
+h3 {text-shadow:2px 1px 1px rgb(202, 166, 118);}
+
+.asid{
+    width 30%
+    margin 1em 0 0;
+    float: inline-start;
+}
+
+
+
+
+.zoo{width: 200px; display: grid; grid-template-columns: repeat(-fill, mimax 15, 1fr)}
+
+table th, td {border:1px solid; border-style: double;border-style: dashed;}
+table{width: 100%}
+tr:nth-child(even){background-color: burlywood;}
+
+.form-group{display: flex;}
+
+.form-group{flex-basis: 50%; margin: 15px;padding:5px}
+
+label{margin-right: 1em;}
+
+input[type=time]{margin-left: 72px;}
+input[type=text]{padding-right: 10px;}
+.town{margin-left: 10px;}
+
+.liks:hover{color: floralwhite;}
+
+
+
+.zoo{width: calc(100% - 50px); height: 150px}
+
+figcaption{position: relative;margin-top: -80px;}
+figcaption{text-align: center;}
+figcaption{font-family: 'Henny Penny', cursive;}
+figcaption{font-size: 36px;}
+figcaption{text-shadow: saddlebrown 2px 2px 2px;}
+
+.knopf{font-size: 22px;}
+.knopf{background-color: saddlebrown;}
+.knopf{background-clip: padding-bo;}
